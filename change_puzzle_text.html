@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cryptyse New Cryptex</title>
+<!-- for-mobile-apps --> 
+</head>
+<body>
+    <div class="main">
+        <div class="w3_agile_main_grid">
+            <h2>Cryptyse Puzzle text generator</h2>
+            <br>
+            <p>This page generates a new secret puzzle on the press of this button</p>
+            <form action="/change_puzzle" method="post">
+                <button name="changeBtn" type="submit">Change my Puzzle!</button>
+            </form>
+            <p>{{ change_message }}</p>
+        </div>
+    </div>
+</body>
+</html>
